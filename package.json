@@ -1,0 +1,20 @@
+{
+  "name": "node-red-contrib-enocean-telegram-decoder",
+  "version": "1.0.0",
+  "description": "EnOceanのデコーダーです",
+  "main": "node.js",
+  "node-red": {
+    "nodes": {
+      "enocean-decoder": "node.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "enocean",
+    "node-red"
+  ],
+  "author": "gaomar",
+  "license": "Apache-2.0"
+}

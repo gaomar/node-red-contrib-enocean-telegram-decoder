@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    RED.nodes.registerType('enocean-decoder',{
+        category: 'function',
+        color: '#9aba12',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "arrow-in.png",
+        label: function() {
+            return this.name||"enocean-decoder";
+        }
+    });
+ </script>
+ 
+ <script type="text/html" data-template-name="enocean-decoder">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+ </script>
+ 
+ <script type="text/html" data-help-name="enocean-decoder">
+    <p>EnOceanのUSBドングルで受信したデータを見やすくデコードします。</p>
+ </script>
